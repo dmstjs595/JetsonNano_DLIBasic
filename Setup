@@ -1,0 +1,7 @@
+dli를 수행해보기 위해서는 setup 과정이 필요하다. 
+먼저https://developer.nvidia.com/embedded/jetpack에서Jetpack 4G를 받아야 한다.
+이는 이미지로, sd카드에 넣어주면 된다. 
+또 sd카드 포매터와 balenaEtcher를 다운받아 이미지를 구워주어야 하는데, 이 때 프로그램을 관리자 권한으로 실행시켜주면 원활하게 진행할 수 있다.
+이미지가 다 구워졌다면 sd카드를 jetson nano에 삽입 후 모니터와 연결, 마우스와 키보드를 연결한 뒤 컴퓨터를 hdmi모드로 연결하면 된다. 
+그리고 마이크로핀을 통해 노트북과 jetson nano를 연결해 주면 기본적인 준비는 끝났다.
+이 때 jetson nano의 발열이 일어날 수 있으니 쿨링팬을 설치하는 것도 좋다.
