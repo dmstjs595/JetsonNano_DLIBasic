@@ -7,10 +7,12 @@ Headless Mode에 접속하는 것에 성공했다면 이제 본격적으로 딥�
 코드블록들을 다 실행시켰다면 usb camera를 이용해 엄지손가락을 올린 상태와 내린 상태를 구분하는 작업을 실행해야 한다. 
 각각의 상태를 수십번 씩 add해주고 학습시켜준 다음 live 모드에서 실험해 볼 수 있었다. 
 데이터의 양이 절대적으로 적을 수 밖에 없기 때문에 정확성이 많이 뛰어나지는 않았지만 학습 데이터를 많이 추가할 수록 정확성이 높아지는 것을 확인할 수 있었다. 
+![image](https://user-images.githubusercontent.com/76214070/202631086-7f489d2e-15eb-4f7c-8c3b-a1b8238ed426.png)
 다음으로는 image regression이다.
 regression 에서는 실시간 이미지에서 얼굴 형상의 X,Y좌표를 예측할 수 있는 프로그램을 만들었다.
 그러기 위해 코드블록을 실행시켜준 뒤 나의 얼굴에서 코, 왼쪽 눈, 오른쪽 눈의 위치를 클릭해 좌표를 형성할 수 있도록 했다.
 실험해 본 결과  image classification과 마찬가지로 어느정도 옳은 결과가 나왔다. 
+![face_xy_interactive](https://user-images.githubusercontent.com/76214070/202630818-1a9ac532-b1ee-4ba1-a7e1-81383f011f13.png)
 
 그렇다면 image classification과 image regression의 차이점은 무엇인가?
 image classification은 이미지 입력을 이산적인(discrete) 출력 값(클래스)에 매핑하지만, image regression은 이미지 인풋 픽셀을 연속적인(continuous) 출력값에 매핑한다.
@@ -18,4 +20,4 @@ image classification은 이미지 입력을 이산적인(discrete) 출력 값(�
 image classification의 추적 능력은 움직이는 로봇 공학에서 선을 따라가는 것과 같은 다른 응용 프로그램에서도 사용될 수 있다. 
 물론, 출력 값은 조향(Steering) 값이나 카메라 이동 파라미터와 같이 상당히 다를 수도 있다.
 그렇기에 옳은 답을 찾길 원하는 image classification과 달리 image regression의 목적은 근사값을 찾는 것이며, 그 과정에서 평균 제곱근 오차 (Root Mean Square Error, RMSE)가 활용된다.
-![face_xy_interactive](https://user-images.githubusercontent.com/76214070/202630818-1a9ac532-b1ee-4ba1-a7e1-81383f011f13.png)
+
