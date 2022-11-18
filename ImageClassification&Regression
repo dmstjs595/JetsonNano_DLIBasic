@@ -18,3 +18,4 @@ image classification은 이미지 입력을 이산적인(discrete) 출력 값(�
 image classification의 추적 능력은 움직이는 로봇 공학에서 선을 따라가는 것과 같은 다른 응용 프로그램에서도 사용될 수 있다. 
 물론, 출력 값은 조향(Steering) 값이나 카메라 이동 파라미터와 같이 상당히 다를 수도 있다.
 그렇기에 옳은 답을 찾길 원하는 image classification과 달리 image regression의 목적은 근사값을 찾는 것이며, 그 과정에서 평균 제곱근 오차 (Root Mean Square Error, RMSE)가 활용된다.
+![face_xy_interactive](https://user-images.githubusercontent.com/76214070/202630818-1a9ac532-b1ee-4ba1-a7e1-81383f011f13.png)
