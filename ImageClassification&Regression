@@ -9,6 +9,7 @@ Headless Mode에 접속하는 것에 성공했다면 이제 본격적으로 딥�
 데이터의 양이 절대적으로 적을 수 밖에 없기 때문에 정확성이 많이 뛰어나지는 않았지만 학습 데이터를 많이 추가할 수록 정확성이 높아지는 것을 확인할 수 있었다. 
 ![image](https://user-images.githubusercontent.com/76214070/202631086-7f489d2e-15eb-4f7c-8c3b-a1b8238ed426.png)
 ![image](https://dli-lms.s3.amazonaws.com/data/c-rx-02/images/classification_interactive_tool.png)
+![image](https://user-images.githubusercontent.com/76214070/202631086-7f489d2e-15eb-4f7c-8c3b-a1b8238ed426.png)
 
 다음으로는 image regression이다.
 regression 에서는 실시간 이미지에서 얼굴 형상의 X,Y좌표를 예측할 수 있는 프로그램을 만들었다.
