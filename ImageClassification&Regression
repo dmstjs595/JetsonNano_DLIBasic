@@ -12,7 +12,7 @@ Headless Mode에 접속하는 것에 성공했다면 이제 본격적으로 딥�
 다음으로는 image regression이다.
 regression 에서는 실시간 이미지에서 얼굴 형상의 X,Y좌표를 예측할 수 있는 프로그램을 만들었다.
 그러기 위해 코드블록을 실행시켜준 뒤 나의 얼굴에서 코, 왼쪽 눈, 오른쪽 눈의 위치를 클릭해 좌표를 형성할 수 있도록 했다.
-실험해 본 결과  image classification과 마찬가지로 어느정도 옳은 결과가 나왔다. 
+실험해 본 결과  image classification과 마찬가지로 어느정도 비슷한 결과가 나왔다. 
 ![face_xy_interactive](https://user-images.githubusercontent.com/76214070/202630818-1a9ac532-b1ee-4ba1-a7e1-81383f011f13.png)
 
 그렇다면 image classification과 image regression의 차이점은 무엇인가?
